@@ -14,6 +14,7 @@
 
 - data access is controlled via OTP
 - user management is performed by project PIs, and Naveed Ishaque (as the bioinformatics co-ordinator)
+![](otp-user.png)
 
 ## Data security
 - data ownership is a hot topic - who owns the data? Sample curator? Financer of generation of data? **Patient?** 
