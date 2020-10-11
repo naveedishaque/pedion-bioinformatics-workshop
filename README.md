@@ -31,7 +31,7 @@ Make sure you have access to : `/data/analysis/pedion/${project}/whole_genome_se
 - [Project overview and managment via OTP](otp-project-overview.md)
 - [**Project** Data structure created by OTP](project-folder-structure.md)
 - [Creating an **analysis** data structure](analysis-structure.md)
-- [Evaluating quality of samples via OTP](sample-QC.md)
+- [Evaluating sequencing quality of samples via OTP](sample-QC.md)
 - [OTP workflows:](workflows.md)
     - [Alignment: bwa](alignment.md)
     - [SNV calling: mpileup](snv.md)
