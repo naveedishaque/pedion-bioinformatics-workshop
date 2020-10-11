@@ -25,16 +25,16 @@ Make sure you have access to : `/data/analysis/pedion/${project}/whole_genome_se
 
 - [Getting started - what is PeDiOn, what data is produced, how to I get access](getting-started.md)
 - [What is OTP?](what-is-OTP.md)
-- Data - Data managment, data access priviliges, data security
-- Project overview and managment via OTP
-- Data structure created by OTP
-- Creating an "analysis" data structure
--	Evaluating quality of samples via OTP
--	Output of OTP workflows
-    - SNV calling
-    - Indel calling
-    - SV calling
-    - Copy number calling
+- [Data - Data managment, data access priviliges, data security](data-management.md)
+- [Project overview and managment via OTP](otp-project-overview.md)
+- [**Project** Data structure created by OTP](project-folder-structure.md)
+- [Creating an **analysis** data structure](analysis-structure.md)
+- [Evaluating quality of samples via OTP](sample-QC.md)
+- Output of OTP workflows
+    - [SNV calling](snv.md)
+    - [Indel calling](indel.md)
+    - [SV calling](sv.md)
+    - [Copy number calling](cna.md)
 
 ## Authors
 
