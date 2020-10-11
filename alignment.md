@@ -31,6 +31,9 @@
 - If an important metric fails, then access to the sample is locked. This regulated in the "QC Status column".
      - a locked sample can be unlocked via OTP - you would click on the "failed" sample, and report a reason for unblocking it.
      
+### Not covered
+- the alignment workflow also performs exome, ATAC, ChIPseq, methylation seq alignment... but not discussed in this course
+     
 # Tasks
 
 1. Go to the OTP website and look at the overview of the RNAseq QC for your project (if available, otherwise WGS)
