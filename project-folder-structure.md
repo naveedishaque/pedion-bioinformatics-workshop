@@ -1,3 +1,5 @@
+[< previous](otp-project-overview.md)  |  [home](README.md)  |  [next >](analysis-structure.md) 
+
 # Data structure created by OTP
 
 ## Raw data managed by OTP
@@ -67,5 +69,6 @@ ls *
 4. Check to see how many SNV runs have completed for your project
 ```
 ls */snv_results/paired/*
-
 ```
+
+[< previous](otp-project-overview.md)  |  [home](README.md)  |  [next >](analysis-structure.md) 
