@@ -1,4 +1,4 @@
-[< previous](otp-project-overview.md)  |  [home](README.md)  |  [next >](project-folder-structure.md)
+[< previous](data-management.md)  |  [home](README.md)  |  [next >](otp-project-overview.md)
 
 # Eils-HPC
 
@@ -131,4 +131,4 @@ seq 1 100
  - submit that job: `bsub lsf_script.sh`
 6. There is much more that can be done with LSF, but that isnt the purpose of this session... moving on!
 
-[< previous](otp-project-overview.md)  |  [home](README.md)  |  [next >](project-folder-structure.md) 
+[< previous](data-management.md)  |  [home](README.md)  |  [next >](otp-project-overview.md)
