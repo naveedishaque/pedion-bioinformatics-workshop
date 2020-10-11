@@ -1,4 +1,5 @@
-# pedion-bioinformatics-workshop
+# PeDiOn Bioinformatics Workshop 12th Oct 2020
+
 Training material for understanding the output of the PeDiOn bioinformatics workflows (first trial - 12th Oct 2020 10:00-11:00)
 
 The focus of the workshop will to provide an overview of data management and user access privileges (data security), and OTP and automatic data processing.
