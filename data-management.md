@@ -1,4 +1,4 @@
-[< previous](data-management.md)  |  [home](README.md)  |  [next >](eils-hpc.md) 
+[< previous](what-is-OTP.md)  |  [home](README.md)  |  [next >](eils-hpc.md) 
 
 # Data - Data managment, data access priviliges, data security
 
@@ -32,4 +32,4 @@
 3. Go to jail, do not pass go
     - seriously, please remember that we are dealing with sensetive data which can identify individual, and their families, so treat the data with respect
 
-[< previous](data-management.md)  |  [home](README.md)  |  [next >](eils-hpc.md) 
+[< previous](what-is-OTP.md)  |  [home](README.md)  |  [next >](eils-hpc.md) 
