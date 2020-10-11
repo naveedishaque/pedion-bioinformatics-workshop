@@ -38,6 +38,7 @@ Make sure you have access to : `/data/analysis/pedion/${project}/whole_genome_se
     - [Indel calling: platypus](indel.md)
     - [SV calling: sophia](sv.md)
     - [Copy number abberation calling: ACEseq](cna.md)
+    - [RNAseq workflow: star, featurecounts, arribe](rnaseq.md)
     
 ### What is not covered
 - how to use linux, python, R, ...
