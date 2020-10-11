@@ -24,6 +24,7 @@
 
 # Tasks
 1. Review RNAseq alignment quality on OTP (OTP top menu -> alingment quality control -> select RNA bulk from the "Seq. Type" drop down menu)
+![](RNAseq_alignments.png)
 2. Find a RNAseq sample on the file system for your project
 3. Review the QC of the sample
 4. Check the gene expression quantification in the `featurecounts` folder
