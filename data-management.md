@@ -1,4 +1,4 @@
-[< previous](data-management.md)  |  [home](README.md)  |  [next >](otp-project-overview.md.md) 
+[< previous](data-management.md)  |  [home](README.md)  |  [next >](otp-project-overview.md) 
 
 # Data - Data managment, data access priviliges, data security
 
@@ -14,4 +14,4 @@
 - Managed using linux user group and control file/folder structure
 - Adhering to the sctrict folder structure is **mandatory** to ensure data security
 
-[< previous](data-management.md)  |  [home](README.md)  |  [next >](otp-project-overview.md.md) 
+[< previous](data-management.md)  |  [home](README.md)  |  [next >](otp-project-overview.md) 
