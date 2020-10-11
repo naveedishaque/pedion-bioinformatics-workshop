@@ -5,7 +5,10 @@
 
 ## What is OTP?
 
-OTP is an automatized system for managing and processing NGS data: https://www.sciencedirect.com/science/article/pii/S0168165617315924?via%3Dihub
+OTP is an automatized system for managing and processing NGS data:
+ - Reisinger E. et al. OTP: An automatized system for managing and processing NGS data. J Biotechnol 2017  10;261:53-62.
+ - doi: 10.1016/j.jbiotec.2017.08.006
+ - https://www.sciencedirect.com/science/article/pii/S0168165617315924?via%3Dihub
 
 It is a bit of a monolithic beast whic takes on the roles of:
 - project management
