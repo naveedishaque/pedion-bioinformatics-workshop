@@ -86,6 +86,7 @@ The cluster consists of the following systems:
 
 # Tasks
 
+0. Log onto the cluster: `ssh eils-login1@bihealth.org`
 1. Submit a simple job listing files:
 ```
 bsub -J my_first_job -o out_report.txt -e err_report.txt ls -lah
