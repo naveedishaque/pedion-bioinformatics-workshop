@@ -40,6 +40,7 @@ OTP is overseen, managed, developed, and operated by a large team. An agile sctr
 # Tasks
 
 1. Log onto the OTP web page: http://s-bih-otp-www.bihealth.org:8080/otp/
+![](otp.png)
 2. Scroll through the first page to get an overview of the data inside OTP
 
  
