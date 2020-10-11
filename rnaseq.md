@@ -26,6 +26,7 @@
 1. Review RNAseq alignment quality on OTP (OTP top menu -> alingment quality control -> select RNA bulk from the "Seq. Type" drop down menu)
 ![](RNAseq_alignments.png)
 2. Find a RNAseq sample on the file system for your project
+ - `data/analysis/pedion/A04R/user_folders/ishaquen/test_analysis_structure/rna_sequencing/results_per_pid/`
 3. Review the QC of the sample
 4. Check the gene expression quantification in the `featurecounts` folder
 5. Check the  `fusions_arriba` directory
