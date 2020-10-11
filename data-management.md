@@ -7,7 +7,7 @@
 - in order to process and analyse data effectively it has to be stored in a structured way
 - primary data ingested by OTP and directly created by OTP is read only to prevent accidental modification
    - in the **project** directory
-- secondary data processing is stored in a slightly more flexible, but euqally secure way
+- secondary data processing is stored in a slightly more flexible, while maintaing data security
    - in the **analysis** directory
 
 ## Data access management
