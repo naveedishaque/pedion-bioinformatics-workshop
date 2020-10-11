@@ -9,12 +9,13 @@
 
 ## Data access management
 
-- data access is detemrined by data *owners*
-- data ownership is a hot topic - who owns the data? Sample curator? Financer of generation of data? **Patient?** 
-   - all have a claim, but the **most** important owner is the patient - their right to privacy supercedes all secondary claims
-- Datanschutz is king
+- data access is controlled via OTP
+- user management is performed by project PIs, and Naveed Ishaque (as the bioinformatics co-ordinator)
 
 ## Data security
+- data ownership is a hot topic - who owns the data? Sample curator? Financer of generation of data? **Patient?** 
+   - all have a claim, but the **most** important owner is the patient - their right to privacy supercedes all secondary claims
+  - Datanschutz is king
 - in order to adhere to data protection requirement, data access is highly regulated
 - user access is granted through linux user groups
 - all primary and dervied data is stored in project specific directories with group level management
