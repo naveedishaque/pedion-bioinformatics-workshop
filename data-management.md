@@ -26,7 +26,7 @@
     - it then becomes the project PIs responsibilty to ensure data security
     - project PI would need to make an official request via the PeDiOn coordinator (Bianca Hennig), which will be followed up by the HPC admin (Stefan Schneider)
 
-# Tasks
+# Tasks (this is theoretical task)
 1. Find your project directory on the cluster
 2. Copy FASTQ files to your laptop
 3. Go to jail, do not pass go
