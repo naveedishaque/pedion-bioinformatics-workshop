@@ -54,5 +54,32 @@ The cluster consists of the following systems:
 - Only core software is managemed by the system admin
 - All scientific software is managed by the users
    - we encourag the use of conda!
+   
+## Running tools and scripts on the cluster
+- The login nodes provide access to the cluster
+- Loging nodes should only be used for computational light tasks
+- Heavy computation (e.g. alignment, variant calling) should be performed on a compute node:
+    - submitting a non-interactive "job"
+    - interactive sesion on a compute node
+    
+## Submitting "jobs"
+- Scheduling is managed by IBM LSF
+    - [Official Guide](https://www.ibm.com/support/knowledgecenter/en/SSWRJV_10.1.0/lsf_welcome/lsf_welcome.html)
+    - ["Rossetta stone" for translating commands between schedulers](https://slurm.schedmd.com/rosetta.pdf)
+    - [Reference manual](https://www.tu-ilmenau.de/fileadmin/media/unirz/Services/Struktureinheiten/Advanced_Computing/lsf101_command_ref.pdf)
+- Submitting jobs:
+    - submitting a script: `bsub`
+    - interactive session: `bsub -Is sh`
+- Submitting jobs.. extended!
+    - Jobs are allocated resources like time, memory and CPU:
+        - Queue: `-q <QUEUE>	`
+        - Process count: `-R “span[ptile=<M>]”`
+        - Process count: `-n <P> -R “span[ptile=<M>]”`	
+        - Wall clock limit: `-W <HH:MM>	`
+        - Memory limit: `-R “rusage[mem=<N>]”`
+        - Interactive job: `-Is sh`
+        - Interactive/X11 job: `-Is -XF sh`
+        - Job Name: `-J <NAME>`
+        - Environment Variables: `-env “all, VAR=value”`
 
 [< previous](otp-project-overview.md)  |  [home](README.md)  |  [next >](project-folder-structure.md) 
