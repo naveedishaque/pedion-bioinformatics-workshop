@@ -82,7 +82,7 @@ The cluster consists of the following systems:
         - Interactive job: `-Is sh`
         - Interactive/X11 job: `-Is -XF sh`
         - Job Name: `-J <NAME>`
-        - Environment Variables: `-env “all, VAR=value
+        - Environment Variables: `-env “all, VAR=value`
 
 # Tasks
 
