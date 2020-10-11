@@ -28,6 +28,7 @@ Make sure you have access to : `/data/analysis/pedion/${project}/whole_genome_se
 - [What is OTP?](what-is-OTP.md)
 - [Data - Data managment, data access priviliges, data security](data-management.md)
 - [Project overview and managment via OTP](otp-project-overview.md)
+- [The Eils-HPC](eils-hpc.md)
 - [**Project** Data structure created by OTP](project-folder-structure.md)
 - [Creating an **analysis** data structure](analysis-structure.md)
 - [Evaluating quality of samples via OTP](sample-QC.md)
