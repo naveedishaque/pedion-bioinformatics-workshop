@@ -2,9 +2,11 @@
 
 ## Raw data managed by OTP
 
-All project data should be stored via OTP. Structure is managed by OTP, and is read only.
-
-Most workflows are executed via workflow management system called [`Roddy`](https://roddy-documentation.readthedocs.io/en/latest/)
+- All project data should be stored via OTP. Structure is managed by OTP, and is read only.
+- We cal this the **project** data structure 
+- Most workflows are executed via workflow management system called [`Roddy`](https://roddy-documentation.readthedocs.io/en/latest/)
+- Data is usually organised per workflow
+- We will only briefly go over this, and focus more on the **analysis** data structure
 
 ```
 # Top level structure. "$project_umbrella" is optional. It would be something like "icgc" or "pedion"
