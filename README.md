@@ -32,7 +32,7 @@ Make sure you have access to : `/data/analysis/pedion/${project}/whole_genome_se
 - [**Project** Data structure created by OTP](project-folder-structure.md)
 - [Creating an **analysis** data structure](analysis-structure.md)
 - [Evaluating quality of samples via OTP](sample-QC.md)
-- Output of OTP workflows
+- [OTP workflows:](workflows.md)
     - [SNV calling](snv.md)
     - [Indel calling](indel.md)
     - [SV calling](sv.md)
