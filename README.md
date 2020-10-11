@@ -33,10 +33,11 @@ Make sure you have access to : `/data/analysis/pedion/${project}/whole_genome_se
 - [Creating an **analysis** data structure](analysis-structure.md)
 - [Evaluating quality of samples via OTP](sample-QC.md)
 - [OTP workflows:](workflows.md)
-    - [SNV calling](snv.md)
-    - [Indel calling](indel.md)
-    - [SV calling](sv.md)
-    - [Copy number calling](cna.md)
+    - [Alignment: bwa](alignmet.md)
+    - [SNV calling: mpileup](snv.md)
+    - [Indel calling: platypus](indel.md)
+    - [SV calling: sophia](sv.md)
+    - [Copy number abberation calling: ACEseq](cna.md)
     
 ### What is not covered
 - how to use linux, python, R, ...
