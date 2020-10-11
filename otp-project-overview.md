@@ -1,4 +1,4 @@
-[< previous](data-management.md)  |  [home](README.md)  |  [next >](project-folder-structure.md) 
+[< previous](data-management.md)  |  [home](README.md)  |  [next >](eils-hpc.md) 
 
 # Project overview and managment via OTP
 
@@ -15,5 +15,5 @@
 - Managed using linux user group and control file/folder structure
 - Adhering to the sctrict folder structure is **mandatory** to ensure data security
 
-[< previous](data-management.md)  |  [home](README.md)  |  [next >](project-folder-structure.md) 
+[< previous](data-management.md)  |  [home](README.md)  |  [next >](eils-hpc.md) 
 
