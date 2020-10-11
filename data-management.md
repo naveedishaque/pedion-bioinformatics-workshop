@@ -6,6 +6,9 @@
 
 - in order to process and analyse data effectively it has to be stored in a structured way
 - primary data ingested by OTP and directly created by OTP is read only to prevent accidental modification
+   - in the **project** directory
+- secondary data processing is stored in a slightly more flexible, but euqally secure way
+   - in the **analysis** directory
 
 ## Data access management
 
@@ -15,7 +18,7 @@
 ## Data security
 - data ownership is a hot topic - who owns the data? Sample curator? Financer of generation of data? **Patient?** 
    - all have a claim, but the **most** important owner is the patient - their right to privacy supercedes all secondary claims
-  - Datanschutz is king
+   - Datanschutz is king
 - in order to adhere to data protection requirement, data access is highly regulated
 - user access is granted through linux user groups
 - all primary and dervied data is stored in project specific directories with group level management
