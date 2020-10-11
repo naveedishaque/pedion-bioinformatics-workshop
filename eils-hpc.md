@@ -72,7 +72,9 @@ The cluster consists of the following systems:
     - interactive session: `bsub -Is sh`
 - Submitting jobs.. extended!
     - Jobs are allocated resources like time, memory and CPU:
-        - Queue: `-q <QUEUE>	`
+        - STDERR log: `-e <error_log.txt>`
+        - STDOUT log: `-o <out_log.txt>`
+        - Queue: `-q <QUEUE>`
         - Process count: `-R “span[ptile=<M>]”`
         - Process count: `-n <P> -R “span[ptile=<M>]”`	
         - Wall clock limit: `-W <HH:MM>	`
@@ -80,6 +82,52 @@ The cluster consists of the following systems:
         - Interactive job: `-Is sh`
         - Interactive/X11 job: `-Is -XF sh`
         - Job Name: `-J <NAME>`
-        - Environment Variables: `-env “all, VAR=value”`
+        - Environment Variables: `-env “all, VAR=value
+
+# Tasks
+
+1. Submit a simple job listing files:
+```
+bsub -J my_first_job -o out_report.txt -e err_report.txt ls -lah
+cat err_report.txt
+cat out_report.txt
+```
+2. ... one more time, now pay attention to what happens to the output/error log files:
+```
+bsub -J my_first_job -o out_report.txt -e err_report.txt ls -lah
+cat err_report.txt
+cat out_report.txt
+```
+3. ... one more time, now combine the logs:
+```
+bsub -J my_first_job -eo errout_report.txt ls -lah
+cat errout_report.txt
+```
+3. Monitor a job. For this we will submit a job that does nothing:
+```
+bsub sleep 200
+bjobs
+bjobs -l
+```
+4. Monitor output from a job. For this we will submit a job that does nothing:
+```
+echo "echo start && sleep 50 && echo middle && sleep 50 && echo end" | bsub
+bpeek
+bpeek
+bpeek
+bpeek
+bpeek
+bpeek
+bpeek
+bpeek
+```
+5. Submit a job script that counts from 1 to 100
+ - create a script which contains the following using vim, nano, emacs, or yout favourite editor
+```
+#!/bin/bash
+seq 1 100
+```
+ - submit that job: `bsub lsf_script.sh`
+6. There is much more that can be done with LSF, but that isnt the purpose of this session... moving on!
 
 [< previous](otp-project-overview.md)  |  [home](README.md)  |  [next >](project-folder-structure.md) 
