@@ -23,8 +23,8 @@ Make sure you have access to : `/data/analysis/pedion/${project}/whole_genome_se
 
 # Content
 
-- Getting started - what is PeDiOn, what data is produced, how to I get access?
-- What is OTP?
+- [Getting started - what is PeDiOn, what data is produced, how to I get access](getting-started.md)
+- [What is OTP?](what-is-OTP.md)
 - Data - Data managment, data access priviliges, data security
 - Project overview and managment via OTP
 - Data structure created by OTP
