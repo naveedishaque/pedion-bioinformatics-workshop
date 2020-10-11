@@ -33,7 +33,7 @@ Make sure you have access to : `/data/analysis/pedion/${project}/whole_genome_se
 - [Creating an **analysis** data structure](analysis-structure.md)
 - [Evaluating quality of samples via OTP](sample-QC.md)
 - [OTP workflows:](workflows.md)
-    - [Alignment: bwa](alignmet.md)
+    - [Alignment: bwa](alignment.md)
     - [SNV calling: mpileup](snv.md)
     - [Indel calling: platypus](indel.md)
     - [SV calling: sophia](sv.md)
