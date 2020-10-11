@@ -1,4 +1,4 @@
-[< previous](otp-project-overview.md)  |  [home](README.md)  |  [next >](analysis-structure.md) 
+[< previous](eils-hpc.md)  |  [home](README.md)  |  [next >](analysis-structure.md) 
 
 # Data structure created by OTP
 
@@ -71,4 +71,4 @@ ls *
 ls */snv_results/paired/*
 ```
 
-[< previous](otp-project-overview.md)  |  [home](README.md)  |  [next >](analysis-structure.md) 
+[< previous](eils-hpc.md)  |  [home](README.md)  |  [next >](analysis-structure.md) 
