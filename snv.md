@@ -11,18 +11,18 @@ Campbell, P.J., Getz, G., Korbel, J.O. et al. Pan-cancer analysis of whole genom
 
 ## Somatic calling
 - mpileup is used with high sensetivity in tumor, containing a combination of somatic and germline SNVs
-    - `snvs_A01P-ZOMNON_raw.vcf.gz``
+    - `snvs_A01P-ZOMNON_raw.vcf.gz`
 - each SNV is assigned a "confidence", starting at 10
 - mutations lying on "problematic regions" (e.g. read attracting, black lister region, STRss) are punished, and confidence is reduced
 - mutations are classified as germline if >=2 (3?) reads are found in the control
 - each SNV is annotated for coding effect
 - each SNV is annotated to belong to a certain region (e.g. CpGI, enhancer, miRNA, repeat...)
-    - `snvs_A01P-ZOMNON.vcf.gz
+    - `snvs_A01P-ZOMNON.vcf.gz`
 - all remaining mutations with confidence >=8 are considered as somatic candidates, and filtered as subsets
-    - snvs_A01P-ZOMNON_somatic_snvs_conf_8_to_10.vcf
-    - snvs_A01P-ZOMNON_functional_snvs_conf_8_to_10.vcf (with protein coding effect, or splice)    
-    - snvs_A01P-ZOMNON_germline_functional_snvs_conf_8_to_10.vcf (potential germline, with protein coding effect, or splice - **this list is very lenient!**)
-    - snvs_A01P-ZOMNON_somatic_functional_ncRNA_snvs_conf_8_to_10.vcf (and exonic ncRNA mutation)
+    - `snvs_A01P-ZOMNON_somatic_snvs_conf_8_to_10.vcf`
+    - `snvs_A01P-ZOMNON_functional_snvs_conf_8_to_10.vcf` (with protein coding effect, or splice)    
+    - `snvs_A01P-ZOMNON_germline_functional_snvs_conf_8_to_10.vcf` (potential germline, with protein coding effect, or splice - **this list is very lenient!**)
+    - `snvs_A01P-ZOMNON_somatic_functional_ncRNA_snvs_conf_8_to_10.vcf` (and exonic ncRNA mutation)
 
 ## Deep annotation of SNVs
 
