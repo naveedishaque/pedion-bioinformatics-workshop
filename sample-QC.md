@@ -7,6 +7,7 @@
 - FASTQC results are available in the OTP web interface
     - OTP top menu -> Sequences
     - Click the links to the FASTQC reports
+    ![](otp-seq.png)
 - FASTQC results are available on the file system
      - `ls /data/otp/project/pedion/*/sequencing/*_sequencing/view-by-pid/*/*/paired/run*/fastx_qc/`
      
