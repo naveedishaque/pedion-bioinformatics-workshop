@@ -37,6 +37,11 @@ Make sure you have access to : `/data/analysis/pedion/${project}/whole_genome_se
     - [Indel calling](indel.md)
     - [SV calling](sv.md)
     - [Copy number calling](cna.md)
+    
+### What is not covered
+- how to use linux, python, R, ...
+- in depth cluster usage
+- in depth description of workflows
 
 ## Authors
 
