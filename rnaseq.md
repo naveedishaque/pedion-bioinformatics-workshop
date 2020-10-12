@@ -5,7 +5,7 @@
 - https://github.com/DKFZ-ODCF/RNAseqWorkflow
 - support single nd paired end reads
 - steps:
-    - alignment using STAR (2 pass per sample, with adapter trimming)
+    - alignment using STAR (2 pass per sample, with adapter trimming): `alignment/*_$patientID_merged.mdup.bam` and `alignment/*_$patientID_chimeric_merged.junction`
     - mark duplicates (not removed) using sambamba
     - finger printing (checking 1000 polymorphic positions)
     - RNAseQC
