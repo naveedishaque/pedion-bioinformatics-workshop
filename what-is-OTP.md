@@ -21,7 +21,7 @@ It is a bit of a monolithic beast whic takes on the roles of:
 ## Where is OTP?
 
 There are current 2 running instances of OTP:
-- Charite/BIH: http://s-bih-otp-www.bihealth.org:8080/otp/
+- Charite/BIH: https://otp-dh.bihealth.org/
 - DKFZ: https://otp.dkfz.de/otp/
 
 ## Who is OTP?
@@ -39,7 +39,7 @@ OTP is overseen, managed, developed, and operated by a large team. An agile sctr
  
 # Tasks
 
-1. Log onto the OTP web page: http://s-bih-otp-www.bihealth.org:8080/otp/
+1. Log onto the OTP web page: https://otp-dh.bihealth.org/
 ![](otp.png)
 2. Scroll through the first page to get an overview of the data inside OTP
 
