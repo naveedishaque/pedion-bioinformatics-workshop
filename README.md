@@ -12,7 +12,7 @@ Make sure you have access to : `/data/analysis/pedion/${project}/whole_genome_se
 -	A01P (Joachim)
 -	A06R (Kerstin, Elias)
 -	A08R (Anna)
--	OTP - http://s-bih-otp-www.bihealth.org:8080/otp/
+-	OTP - https://otp-dh.bihealth.org/
 
 ### Requirements
 - Register for the course by emailing naveed.ishaque@charite.de
@@ -20,7 +20,7 @@ Make sure you have access to : `/data/analysis/pedion/${project}/whole_genome_se
 - VPN access to Charite (VPN Antrag)
 - VPN access to eils-hpc and OTP (VPN Zusatz Antrag B)
 - Computer with SSH access to `eils-login1.bihealth.org`
-- Access to [OTP](http://s-bih-otp-www.bihealth.org:8080/otp/)
+- Access to [OTP](https://otp-dh.bihealth.org/)
 
 # Content
 
