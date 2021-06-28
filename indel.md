@@ -3,12 +3,6 @@
 # Insertion and Deletion calling workflow
 - https://github.com/DKFZ-ODCF/IndelCallingWorkflow
 
-
-
-
-
-
-
 ## Somatic calling
 - platypus is used to call indels (tumor and control at the same time)
     - `indel_A01P-ZOMNON.vcf.raw.gz`
@@ -81,21 +75,22 @@
 
 ## Rescued mutations
 - Sometimes sommatic mutations can be missclassified as germline if there is tumor DNA present in the control
-- Based of MAF modelling, these can be rescued:
+- Based of MAF modelling, these can be rescued. In the example below you can see that 142 mutations were rescued (show as blue dots on the right panel). These rescued mutations had a comparable VAF to somatic mutations in the tumor (0.46 vs 0.49), but a much lower control VAF (0.03 vs 0.48), implicating them as true positives:
    - `grep -w Somatic_Rescue snvs_A01P-ZOMNON.GTfiltered_gnomAD.Germline.Rare.vcf`
     
 ## IGV like screenshots
 - Since indels are typically harder to call than SNVs, we typically review them by eye using IGV
 - Using IGV to validate many events is tedious!
-- Screenshots of each functional indel are produced and saved in a PDF file:
-![](indel-screenshot.png)
+- Screenshots of each functional indel are produced and saved in a PDF file. The following example shows a 3bp deletion in the tumor (bottom panel) compared to no such indel in the  control (top panel)
+![image](https://user-images.githubusercontent.com/114547/123631665-4e091e80-d817-11eb-9174-97a74659a3b4.png)
+
 
 ## OTP QC
 - OTP top menu -> results -> indel results
 ![](indel.png)
 - General overview per sample, including 
    - size breakdown, and link to IGV like plots
-   - tumor-normal swap check: by calling mutations in control vs tumor, we can see if the tumor has been switched with the control (assuming that the control will have fewer mutations)
+   - tumor-normal swap check: by calling mutations in control vs tumor, we can see if the tumor has been switched with the control (assuming that the control will have fewer mutations). When `Somatic Pass (C)` > `Somatic Pass (T)`, this indicates that more somatic mutations were found in the reverse calling, thus implicating a tumor-normal swap.
    - tumor-in-normal-detection-algorithm (TiNDA)
    ![](indel-tinda.png)
 
@@ -105,19 +100,5 @@
 2. Check if a known cancer gene is mutated: `cut -f 19-21 indel_*_indels_conf_8_to_10.vcf | grep -w 'TP53\|KRAS\|CDKN2A\|EGFR\|PI3KCA\|BRCA1\|BRCA2\|PTEN\|APC\|ARID1A' `
 3. Check what type of protein coding effects are found in the sample: `cut -f 21 indel_*_indels_conf_8_to_10.vcf | sort | uniq -c`
 4. Check if any gerline mutations are found in COSMIC: `cut -f 19-21,41 indel_*_germline_functional_indels_conf_8_to_10.vcf | grep basechange`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 [< previous](snv.md)  |  [home](README.md)  |  [next >](sv.md) 
