@@ -79,6 +79,12 @@
 - OTP top menu -> results -> SV results
 - General overview of QC focuses on RNA contamination in DNA. This is not an issue since Illumina introduced dual indexing, so nothing interesting to show
      
+## Known issues
+- Redundant calls. Check the co-ordinates, and also check reverse co-oridnates
+- Annotation of calls. 
+  - The workflows do not seemlessly fit togheter. When is a SV a CNV? When is a SV an indel? Perhaps "true" SVs are infact just balanced SVs, and all other fall into the category of CNVs or indels?
+  - Accuracy of events such as translocations or inversions are not accurate.
+
 # Tasks
 
 1. Go to a folder containing the SV calls of a sample
