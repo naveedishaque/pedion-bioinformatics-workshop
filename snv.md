@@ -75,25 +75,17 @@ Campbell, P.J., Getz, G., Korbel, J.O. et al. Pan-cancer analysis of whole genom
     - 45:phastConsElem20bp
     - 46:ENCODE_TFBS
 
-## OTP QC
+## OTP QC using the SNV diagnostic plots
 - OTP top menu -> results -> SNV results
 ![](snv-results.png)
 - General overview per sample, including `plots`
-     - **Rainfall plots**/ intermutational distance plots: somatic hyper mutation (SHM), kataegis events
-     
-     ![](snv-rainfall.png)
-     - **MAF** of somatic mutations (all in red, blue in dbSNP)
-     
-     ![](snv-maf.png)
-     - **Mutational pattern** by chromosome and mutation triplet context
-     
-     ![](snv-pattern.png)
-     - **Strand bias - PCR strand**
-     
-     ![](snv-pcr-stran-bias.png)    
-     - **Strand bias - sequencing strand**
-     
-     ![](snv-seq-stran-bias.png)  
+     - **Rainfall plots**/ intermutational distance plots: these somatic hyper mutation (SHM) observed in clonal B-cells, and kataegis events in genomicly instable tumors. The following shows a rainfall on chr6. <br><img src="snv-rainfall.png" alt="Rainfalls" width="500"/>
+     - **MAF** of somatic mutations (all in red, blue in dbSNP)<br><img src="snv-maf.png" alt="Normal sample" width="150"/>
+       - The percentage of somatic SNVs in dbSNP should generally be below 20%. This may be higher when there are very few SNVs due to a fairly high FP rate. If the percentage is higher, we could be dealing with a sample swap, or maajor contamination is the tumor sample (e.g. stem cell translantation)
+       - The red peak gives an indication of tumor purity (the closer it is to 50%, the more pure the tumor; the closer it is to 0%, the more impure). The following is a very impure sample<br><img src="https://user-images.githubusercontent.com/114547/123623686-0a5de700-d80e-11eb-9e6d-872790ea3c10.png" alt="Low purity sample" width="150"/>
+     - **Mutational pattern** by chromosome and mutation triplet context. These are a poor mans mutational signature analysis and provide a quick insight into mutational signatures. Generally this should be dominated by C->T mutations, otherwise it would indicate another mutational process.<br><img src="snv-pattern.png" alt="Normal sample" width="500"/>
+     - **Strand bias - PCR strand**. The mutational signatures may have a PCR strand specific bias. Generally speaking, this is something we do not want to see. These will appear as green or purple spots on the heatmap. They may appear very colourful when the sample have very few somatic mutations<br><img src="snv-pcr-stran-bias.png" alt="PCR bias" width="500"/>   
+     - **Strand bias - sequencing strand**. As above, but on the sequencing strand.<br><img src="snv-seq-stran-bias.png" alt="Strand bias" width="500"/>
      
 # Tasks
 
