@@ -33,7 +33,7 @@
 - <b>Things to check in OTP</b> 
      - Do you achieve target coverage? For PeDiOn this is ~40x for controls, ~60-80x for primary tumors, and ~80x for relaspse or metastasis tumors
      - Mapped reads should be >99%
-     - Properly paired should be  <90% (in most cases 93%-95%)
+     - Properly paired should be >90% (in most cases 93%-95%)
      - Single read alignments should be <1% (usually 0.01%)
      - DiffChrom (read pairs mapping to different chromosomes) should be <6% (but in some cases up to 10%). It is easy to assume this might be related to chromosomal translocations, but in reality this accounts for very few read pairs mapping to different chromosomes
      - Duplicate reads should be less than 10%, but with very high coverage samples it can go up to 15-20%
